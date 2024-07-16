@@ -1,9 +1,13 @@
+import os
 import copy
 import utils
 from models import *
 
 diabetes_data = utils.clean_dataset('dataset/diabetes_prediction_dataset.csv', 'diabetes')
 heart_data = utils.clean_dataset('dataset/heart_attack_prediction_dataset.csv', 'HeartDiseaseorAttack')
+
+if not os.path.isdir('results'):
+    os.makedirs('results')
 
 # Normal run with no data transformation
 kmeans_run(heart_data, 10, 'results/kmeans_heart_data')
