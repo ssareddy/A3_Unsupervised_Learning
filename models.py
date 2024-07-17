@@ -79,7 +79,7 @@ def em_run(dataset, total_clusters, filename):
 def pca_run(dataset, dataset_name=None):
     variance_results = np.around(PCA(svd_solver='full').fit(dataset[0]).explained_variance_ratio_.cumsum(), 2)
 
-    if dataset_name is None:
+    if dataset_name is not None:
         plt.plot(range(1, len(dataset[0].columns) + 1), variance_results)
         plt.xlabel('# of Components')
         plt.ylabel('Explained Variance (%)')
