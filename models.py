@@ -184,7 +184,7 @@ def nn_kmeans_run(dataset, name):
     training_accuracy = metrics.accuracy_score(dataset[2], training_predict)
     testing_accuracy = metrics.accuracy_score(dataset[3], testing_predict)
 
-    with open(f'results/nn_results.csv', 'a') as nn_file:
+    with open(f'results/nn_kmeans_results.csv', 'a') as nn_file:
         nn_file.write(f'{name}_Training Accuracy: {training_accuracy}\n')
         nn_file.write(f'{name}_Testing Accuracy: {testing_accuracy}\n')
 
@@ -210,6 +210,6 @@ def nn_em_run(dataset, name):
     training_accuracy = metrics.accuracy_score(dataset[2], training_predict)
     testing_accuracy = metrics.accuracy_score(dataset[3], testing_predict)
 
-    with open(f'results/nn_results.csv', 'a') as nn_file:
+    with open(f'results/nn_em_results.csv', 'a') as nn_file:
         nn_file.write(f'{name}_Training Accuracy: {training_accuracy}\n')
         nn_file.write(f'{name}_Testing Accuracy: {testing_accuracy}\n')

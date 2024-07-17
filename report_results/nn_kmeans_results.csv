@@ -1,0 +1,6 @@
+KMEANS_PCA_Heart_Dataset_Training Accuracy: 0.932
+KMEANS_PCA_Heart_Dataset_Testing Accuracy: 0.868
+KMEANS_ICA_Heart_Dataset_Training Accuracy: 0.945125
+KMEANS_ICA_Heart_Dataset_Testing Accuracy: 0.872
+KMEANS_GRP_Heart_Dataset_Training Accuracy: 0.900125
+KMEANS_GRP_Heart_Dataset_Testing Accuracy: 0.8945

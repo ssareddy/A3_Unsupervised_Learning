@@ -1,0 +1,6 @@
+EM_PCA_Heart_Dataset_Training Accuracy: 0.922
+EM_PCA_Heart_Dataset_Testing Accuracy: 0.872
+EM_ICA_Heart_Dataset_Training Accuracy: 0.94175
+EM_ICA_Heart_Dataset_Testing Accuracy: 0.8645
+EM_GRP_Heart_Dataset_Training Accuracy: 0.900125
+EM_GRP_Heart_Dataset_Testing Accuracy: 0.8945
